@@ -1,40 +1,5 @@
 # 忽略所有 rag-doctor/docs/文件
 rag-doctor/docs/
 
-# Python 后端
-__pycache__/
-*.py[cod]
-*.so
-.Python
-venv/
-env/
 .env
-*.egg-info/
-.eggs/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# ========== IDE 和编辑器 ==========
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store  # macOS
-Thumbs.db  # Windows
-
-# ========== 日志和临时文件 ==========
-*.log
-*.tmp
-*.temp
-logs/
-*.pid
-*.seed
-
-# ========== 测试相关 ==========
-test-results/
-junit.xml
-*.test.js
-*.spec.js
 
