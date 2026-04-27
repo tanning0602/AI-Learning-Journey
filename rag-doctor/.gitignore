@@ -9,5 +9,5 @@ venv/
 dist/
 build/
 .rag-doctor/
-reports/
+
 private_notes/
