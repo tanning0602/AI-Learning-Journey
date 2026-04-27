@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-doctor"
+version = "0.1.0"
+description = "Diagnose retrieval quality, citation quality, and hallucination risk in small RAG applications."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Your Name" }
+]
+keywords = ["rag", "llm", "nlp", "evaluation", "vector-search"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+rag-doctor = "rag_doctor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

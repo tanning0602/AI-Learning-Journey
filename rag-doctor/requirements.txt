@@ -1,0 +1,6 @@
+# The MVP intentionally has no required third-party dependencies.
+# Optional next steps:
+# sentence-transformers
+# faiss-cpu
+# chromadb
+# pypdf

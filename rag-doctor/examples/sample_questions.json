@@ -1,0 +1,20 @@
+{
+  "questions": [
+    {
+      "question": "What does RAG Doctor evaluate?",
+      "expected_terms": ["retrieval", "citations", "hallucination"]
+    },
+    {
+      "question": "RAG Doctor 可以帮助定位什么问题？",
+      "expected_terms": ["检索", "上下文", "引用", "幻觉"]
+    },
+    {
+      "question": "NLP 或 LLM 应用工程师应该掌握哪些能力？",
+      "expected_terms": ["Python", "NLP", "RAG", "评估", "部署"]
+    },
+    {
+      "question": "What should an assistant do when context is missing?",
+      "expected_terms": ["context", "missing", "guessing"]
+    }
+  ]
+}
