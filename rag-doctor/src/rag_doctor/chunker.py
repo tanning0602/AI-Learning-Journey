@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-from rag_doctor.load_documents import Document
+from .load_documents import Document
 
 
 @dataclass(frozen=True)

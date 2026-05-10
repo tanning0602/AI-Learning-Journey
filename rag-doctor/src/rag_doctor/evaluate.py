@@ -5,9 +5,9 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
-from rag_doctor.embedder import tokenize
-from rag_doctor.qa import answer_question
-from rag_doctor.retriever import InMemoryIndex
+from .embedder import tokenize
+from .qa import answer_question
+from .retriever import InMemoryIndex
 
 
 @dataclass(frozen=True)

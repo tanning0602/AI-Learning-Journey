@@ -4,8 +4,8 @@ import json
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-from rag_doctor.chunker import Chunk
-from rag_doctor.embedder import HashingEmbedder, cosine_similarity
+from chunker import Chunk
+from .embedder import HashingEmbedder, cosine_similarity
 
 
 @dataclass(frozen=True)

@@ -3,8 +3,8 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
-from rag_doctor.embedder import tokenize
-from rag_doctor.retriever import InMemoryIndex, SearchResult
+from .embedder import tokenize
+from .retriever import InMemoryIndex, SearchResult
 
 
 SENTENCE_PATTERN = re.compile(r"[^。！？!?。\n]+[。！？!?。]?")

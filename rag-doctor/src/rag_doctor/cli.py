@@ -4,11 +4,11 @@ import argparse
 import json
 from pathlib import Path
 
-from rag_doctor.chunker import chunk_documents
-from rag_doctor.evaluate import evaluate_questions, load_question_cases, write_html_report
-from rag_doctor.load_documents import load_documents
-from rag_doctor.qa import answer_question
-from rag_doctor.retriever import InMemoryIndex
+from .chunker import chunk_documents
+from .evaluate import evaluate_questions, load_question_cases, write_html_report
+from .load_documents import load_documents
+from .qa import answer_question
+from .retriever import InMemoryIndex
 
 
 DEFAULT_INDEX_PATH = ".rag-doctor/index.json"

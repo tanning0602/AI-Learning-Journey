@@ -1,8 +1,5 @@
-# 04-27 学习笔记和已完成任务
 
-这份文档对应第一天目标：先理解 RAG 的主流程，再通过一个能运行的小项目把概念串起来。
-
-## 一、你今天要掌握的基础概念
+## 一、你要掌握的基础概念
 
 ### 1. Token
 
@@ -92,7 +89,7 @@ RAG 不能只看“答案像不像对”。至少要看：
 6. `evaluate.py`：看怎么评价结果。
 7. `cli.py`：看工程入口如何组织。
 
-## 四、今天必须跑通的命令
+## 四、跑通的命令
 
 ```powershell
 $env:PYTHONPATH="src"
@@ -106,13 +103,5 @@ python -m rag_doctor.cli eval examples/sample_questions.json --output reports/re
 - `.rag-doctor/index.json`
 - `reports/report.html`
 
-## 五、明天继续做什么
 
-第二天重点不是再堆功能，而是把项目做得更像可展示产品：
 
-- 加 PDF 支持。
-- 接真实 embedding 模型。
-- 加 FAISS 或 Chroma。
-- 做一个 Streamlit/Gradio 页面。
-- 增加更多中文示例数据。
-- 写一篇技术文章发布。
