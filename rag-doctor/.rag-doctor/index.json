@@ -1,6 +1,6 @@
 {
   "embedder": {
-    "type": "hashing",
+    "type": "hashing123",
     "dimensions": 384
   },
   "chunks": [
