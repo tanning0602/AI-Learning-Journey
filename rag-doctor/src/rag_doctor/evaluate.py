@@ -5,7 +5,8 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
-from .embedder import tokenize
+from .embedder  import tokenize
+# from .qa import answer_question
 from .qa import answer_question
 from .retriever import InMemoryIndex
 

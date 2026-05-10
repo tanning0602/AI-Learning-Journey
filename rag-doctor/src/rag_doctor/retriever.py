@@ -4,7 +4,7 @@ import json
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-from chunker import Chunk
+from .chunker import Chunk
 from .embedder import HashingEmbedder, cosine_similarity
 
 

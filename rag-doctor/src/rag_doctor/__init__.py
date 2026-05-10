@@ -1,10 +1,10 @@
 """Small, inspectable RAG diagnostics toolkit."""
 
-from rag_doctor.chunker import Chunk, chunk_documents, chunk_text
-from rag_doctor.embedder import HashingEmbedder, cosine_similarity, tokenize
-from rag_doctor.load_documents import Document, load_documents
-from rag_doctor.qa import RagAnswer, answer_question
-from rag_doctor.retriever import InMemoryIndex, SearchResult
+from .chunker import Chunk, chunk_documents, chunk_text
+from .embedder import HashingEmbedder, cosine_similarity, tokenize
+from .load_documents import Document, load_documents
+from .qa import RagAnswer, answer_question
+from .retriever import InMemoryIndex, SearchResult
 
 __all__ = [
     "Chunk",

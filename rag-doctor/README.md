@@ -16,6 +16,18 @@ This repository is intentionally small and readable. The first version uses a de
 
 ## Quickstart
 
+For PyCharm, run this file directly:
+
+```text
+run_demo.py
+```
+
+If you run `src/rag_doctor/cli.py` directly, you must configure Program arguments, because it is a command-line tool:
+
+```text
+index examples/sample_docs
+```
+
 Run without installation:
 
 ```powershell

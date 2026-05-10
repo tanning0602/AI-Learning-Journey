@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 
 from .load_documents import Document
+# from src.rag_doctor.load_documents import Document
+
 
 
 @dataclass(frozen=True)
