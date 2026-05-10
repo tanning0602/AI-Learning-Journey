@@ -102,6 +102,6 @@ python -m rag_doctor.cli eval examples/sample_questions.json --output reports/re
 
 - `.rag-doctor/index.json`
 - `reports/report.html`
-
+============
 
 
